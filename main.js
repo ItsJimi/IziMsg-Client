@@ -59,12 +59,12 @@ function createWindow () {
 	window = new BrowserWindow({
         show: false,
         frame: false,
-		//transparent: true,
+		transparent: true,
 		movable: false,
 		resizable: false,
 		useContentSize: true,
-		height: 525,
-		width: 340
+		height: 600,
+		width: 400
       });
 
 	positioner = new Positioner(window);

@@ -1,0 +1,60 @@
+html, body {
+	padding: 10px;
+	margin: 0px;
+	font-family: "Helvetica Neue", sans-serif;
+}
+textarea {
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	width: 380px;
+	height: 80px;
+	border-top: 1px solid #888;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	font-weight: 200;
+	color: #333;
+}
+textarea:focus {
+	outline: none;
+}
+.container {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 390px;
+	height: 519px;
+	background: #efefef;
+	display: flex;
+	flex-direction: column;
+}
+.item {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 350px;
+}
+.name {
+	position: relative;
+	text-align: center;
+}
+.text {
+	position: relative;
+	margin-top: -20px;
+	background: #3498db;
+	padding: 10px;
+	border-left: 4px solid #2980b9;
+	border-radius: 2px;
+	color: #fff;
+	transition: margin-top 0.2s;
+}
+.text:hover {
+	margin-top: 5px;
+}
